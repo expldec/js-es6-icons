@@ -7,10 +7,39 @@
 header .top {
     color: #29b1dd;
     padding: 1rem 0 0 1rem;
+    min-height: 3.5rem;
 }
 
 header .bottom {
     background-color: #29b1dd;
+    padding: 1rem;
+    text-align: center;
+    min-height: 3.5rem;
+}
+
+main {
+    height: calc(100vh - 7rem);
+}
+.grid-container {
+    background-color: #dddddd;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+/* .grid-container::after {
+    content: "";
+    flex: auto;
+  } */
+
+.box {
+    background-color: white;
+    width: calc(100% / 5 - 1rem);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     padding: 1rem;
     text-align: center;
 }
