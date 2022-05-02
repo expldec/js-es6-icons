@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .top {
+    color: #29b1dd;
+    padding: 1rem 0 0 1rem;
+}
+
+header .bottom {
+    background-color: #29b1dd;
+    padding: 1rem;
+    text-align: center;
+}
