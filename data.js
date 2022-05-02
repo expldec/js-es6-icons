@@ -114,7 +114,7 @@ const data = [
 ];
 
 //per popolare la pagina all'esecuzione dello script, chiamiamo la funzione drawGrid
-drawGrid('data');
+drawGrid(data);
 
 
 // funzione drawGrid
