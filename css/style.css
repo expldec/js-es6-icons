@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 header .top {
@@ -30,11 +31,6 @@ main {
     align-content: flex-start;
 }
 
-/* .grid-container::after {
-    content: "";
-    flex: auto;
-  } */
-
 .box {
     background-color: white;
     width: calc(100% / 5 - 1rem);
@@ -42,4 +38,12 @@ main {
     margin-bottom: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+.box i {
+    font-size: 2rem;
+}
+
+.box p {
+    margin-top: 0.5rem;
 }

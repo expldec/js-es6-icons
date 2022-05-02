@@ -1,4 +1,4 @@
-[
+const data = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -112,3 +112,16 @@
 		color: 'blue'
 	}
 ];
+
+data.forEach(element => {
+	const newCell = document.createElement('div');
+	newCell.classList.add('box');
+	const cellIcon = document.createElement('i') ;
+	cellIcon.classList.add(element.family);
+	cellIcon.classList.add(`${element.prefix}${element.name}`)
+	newCell.append(cellIcon)
+	const cellText = document.createElement('p');
+	cellText.textContent = element.name.toUpperCase();
+	newCell.append(cellText);
+	document.querySelector('.grid-container').append(newCell);
+});
